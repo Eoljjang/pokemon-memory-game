@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+body{
+    background-color: #eeffee;
+}
+.content{ /* All content is centered */
+    display: flex;
+    flex-direction: column;
+    min-width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 36px;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 24px;
+}
+
+.header-container h1{
+    text-align: center;
+}
+
+.instruction-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 70%;
+}
+
+.instruction-list li{
+    font-size: 18px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+
+/* CSS FOR GAME COMPONENT */
+.pokemon-img-container{
+    width: 100%; /* width of the content container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon-img{
+    min-width: 10%; /* 10% of the size of the pokemon-img-container */
+    height: auto;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 18px;
+}
+
+#high-score{
+    background-color: #eef1ff;
+    padding: 8px;
+    border-radius: 12px;
+}
